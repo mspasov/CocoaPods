@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "StartApp"
-  s.version      = "3.3.2"
+  s.version      = "3.3.5"
   s.summary      = "StartApp SDK for iOS"
 
   s.description  = <<-DESC
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
-  s.source       = { :http => "http://s3.startapp.com.s3.amazonaws.com/Resources/sdk-management/IOS-InApp%20SDK-InApp-3.3.2.zip" }
+  s.source       = { :http => "http://s3.startapp.com.s3.amazonaws.com/Resources/sdk-management/IOS-InApp%20SDK-InApp-3.3.5.zip" }
   s.vendored_frameworks = "StartApp.framework"
   s.resource  = "StartApp.bundle"
 
